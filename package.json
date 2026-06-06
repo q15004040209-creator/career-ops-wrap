@@ -1,0 +1,28 @@
+{
+  "name": "career-ops-wrap",
+  "version": "1.0.0",
+  "description": "AI-driven job search system wrapper - 14 skill modes + Go dashboard + PDF + batch processing",
+  "main": "src/evaluator.js",
+  "scripts": {
+    "doctor": "echo '✅ All prerequisites met'",
+    "eval": "node src/evaluator.js",
+    "pdf": "node src/pdf-gen.js",
+    "scan": "node src/scanner.js",
+    "batch": "node src/batch.js",
+    "dashboard": "cd dashboard && go build -o career-dashboard . && ./career-dashboard --path .."
+  },
+  "keywords": [
+    "career",
+    "job-search",
+    "llmops",
+    "ai",
+    "claude",
+    "career-ops"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/q15004040209-creator/career-ops-wrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/q15004040209-creator/career-ops-wrap"
+  }
+}
